@@ -1,22 +1,22 @@
 class Duru < Formula
   desc "Terminal dashboard for Claude Code — explore, manage, and monitor your setup"
   homepage "https://github.com/uppinote20/duru"
-  version "0.3.1"
+  version "0.4.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/uppinote20/duru/releases/download/v0.3.1/duru-aarch64-apple-darwin.tar.gz"
-      sha256 "ae8fc9de0a3885937fda08421ae7242b11785f41d26519948ff400542570c564"
+      url "https://github.com/uppinote20/duru/releases/download/v0.4.0/duru-aarch64-apple-darwin.tar.gz"
+      sha256 "0b21e3c471e5b67a0c28e0d0824a6dd8de970764d9b12ecc1148373ce324254b"
     else
-      url "https://github.com/uppinote20/duru/releases/download/v0.3.1/duru-x86_64-apple-darwin.tar.gz"
-      sha256 "c725ff0a85ecef389ce5783866513bd3fe18c483935276538935b5f2deb40135"
+      url "https://github.com/uppinote20/duru/releases/download/v0.4.0/duru-x86_64-apple-darwin.tar.gz"
+      sha256 "da4f7f8755513ea849d4528d6a93246c3af43b5dafbec0f30747defc2c6bbe8d"
     end
   end
 
   on_linux do
-    url "https://github.com/uppinote20/duru/releases/download/v0.3.1/duru-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "0ad96e0bb5a521888493298715683984656800792d8fa2865525bf7e085bde8e"
+    url "https://github.com/uppinote20/duru/releases/download/v0.4.0/duru-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "46191d58f2e79a084fcf0458026ef86f7de47243be9b620ca458053c2485e0fa"
   end
 
   def install
